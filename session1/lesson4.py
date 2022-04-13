@@ -4,7 +4,8 @@ from selenium.webdriver.common.by import By
 
 try:
     link = "http://suninjuly.github.io/registration1.html"
-    browser = webdriver.Chrome("../chromedriver.exe")
+    # browser = webdriver.Chrome("../chromedriver.exe")
+    browser = webdriver.Chrome()
     browser.get(link)
     browser.find_element(by=By.CSS_SELECTOR, value=".first_block .first").send_keys("check")
     browser.find_element(by=By.CSS_SELECTOR, value=".first_block .second").send_keys("check")
