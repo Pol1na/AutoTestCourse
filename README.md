@@ -1,3 +1,3 @@
 # AutoTestCourse
 Прохождение курса по автоматизации тестирования на Python.
-- https://stepik.org/course/575/ - 
+- https://stepik.org/course/575/ 
